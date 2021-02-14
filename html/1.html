@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="app">
+        <div>{{message}}</div>
+        <div @click="change">改变值</div>
+    </div>
+    <div id="s2"></div>
+    <script src="../js/jquery3.4.1.min.js"></script>
+    <script>
+        $(function(){
+            var flag = 2;
+            var a = '#s' + flag;
+            console.log(a);
+            $(a).css({
+                "backgroundColor":"yellow",
+                "width":"200px",
+                "height":"200px"                
+            })
+        })
+    </script>
+    <!-- <script src="../js/vue.min.js"></script>
+    <script>
+        const data = {
+            message:'你好啊'
+        }
+        const app = new Vue({
+            el: '#app',
+            data:data,
+            methods:{
+                change(){
+                    this.message = '111'
+                }
+            }
+        })
+        // 元素js的做法
+
+    </script> -->
+</body>
+
+</html>
