@@ -6,4 +6,5 @@ Git tracks changes of files.
 abc
 ead
 123
+修复好了bug
 
