@@ -7,5 +7,4 @@ abc
 ead
 123
 Creating a new branch is quick and simple.
-newnew
-bug修复好了
+重新修复一个bug，且修复好了。
