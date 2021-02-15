@@ -6,4 +6,4 @@ Git tracks changes of files.
 abc
 ead
 123
-new Branch
+Creating a new branch is quick & simple.
